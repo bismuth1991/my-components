@@ -1,0 +1,28 @@
+.Button {
+  -webkit-appearance: none;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 1.5px #999;
+  transition: background-color 150ms ease-in-out;
+  -webkit-font-smoothing: antialiased;
+  padding: 10px;
+}
+.Button:active {
+  box-shadow: 0 0.5px #666;
+  transform: translateY(1px);
+}
+
+.Button--red {
+  background-color: #ed3e44;
+  border: 1px solid #da393f;
+}
+.Button--red:hover {
+  background-color: #da393f;
+  border-color: #da393f;
+}
